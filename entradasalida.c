@@ -2,6 +2,8 @@
 extern t_log* logger;
 int main(int argc, char* argv[]) { 
     //Inicio el logger de entradasalida 
+    //PRueba
+    
     logger = iniciar_logger("entradasalida.log", "LOGGER_ENTRADASALIDA");  
     //Inicio la configuracion de entradasalida
     entradasalida_config = iniciar_config("entradasalida.config");
